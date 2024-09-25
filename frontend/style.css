@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://as1.ftcdn.net/v2/jpg/06/23/00/58/1000_F_623005805_Q1czIHfEiU7HuZD6RMsX5GtcnrH3XuL7.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: transparent; /* Fully transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: white; /* Changed to white */
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: white; /* Changed to white */
+}
+input[type="text"],
+input[type="number"],
+input[type="tel"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #D3D3D3; /* Grey background */
+    box-sizing: border-box;
+}
+input[type="submit"],
+input[type="reset"] {
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50; /* Original color for submit button */
+    width: 48%; /* Adjusted width for submit button */
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="reset"] {
+    background-color: #f57c00; /* Orange color for reset button */
+    width: calc(48% - 10px); /* Make width 4px less than submit button */
+}
+input[type="reset"]:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+/* New styles for button group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.button-group input,
+.button-group button {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.button-group input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.button-group input[type="reset"] {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+.button-group button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+/* Additional styles from search.css */
+body.search-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://wallpapers.com/images/hd/teddy-bear-cute-laptop-wskgbnazlfkt4h30.jpg'); /* Replace with your desired image URL */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.container.search-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+h1.search-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+form.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+label.search-label {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #555;
+    font-weight: bold;
+}
+input[type="text"].search-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+input[type="text"].search-input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+button.search-button {
+    padding: 12px 20px;
+    background-color: #8B4513; /* Brown color */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.search-button:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+}
+#user-details {
+    margin-top: 20px;
+    color: #666;
+}

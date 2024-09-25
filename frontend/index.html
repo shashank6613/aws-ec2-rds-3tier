@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>User Information</h1>
+            <form onsubmit="submitForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality" required>
+                <label for="language">Language:</label>
+                <input type="text" id="language" name="language" required>
+                <label for="pin">PIN:</label>
+                <input type="text" id="pin" name="pin" required>
+                <div class="button-group">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <button type="button" onclick="window.location.href='search.html'">Search User</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

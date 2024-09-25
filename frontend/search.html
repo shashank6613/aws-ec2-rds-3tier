@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search User</title>
+    <link rel="stylesheet" href="search.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="search-page">
+    <div class="container search-container">
+        <h1 class="search-title">Search User</h1>
+        <form class="search-form" onsubmit="searchUser(event)">
+            <label class="search-label" for="search">Search by Name or Mobile:</label>
+            <input type="text" id="search" name="search" class="search-input" required>
+            <button type="submit" class="search-button">Search</button>
+        </form>
+        <div id="user-details"></div>
+    </div>
+</body>
+</html>
